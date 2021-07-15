@@ -19,7 +19,7 @@ const routes = [
   {
     path: "/",
     exact: true,
-    main: () => <h2>主页啥都没aaa分支dev</h2>
+    main: () => <h2>主页啥都没aaa分支dev，main分支修改</h2>
   },
   { path: "/workings", main: () => <NestingExample></NestingExample> },
   { path: "/writings", main: () => <Animate /> },
