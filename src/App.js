@@ -19,7 +19,11 @@ const routes = [
   {
     path: "/",
     exact: true,
-    main: () => <h2>主页啥都没aaa分支dev，先featur修改，再main分支修改.提交到远程后的本地feature</h2>
+    main: () => {
+    <h2>主页啥都没aaa分支dev，先featur修改，再main分支修改.提交到远程后的本地feature</h2>;
+    <p>测试BUG，本地暂存区</p>;
+    <p>本地工作区</p>
+  }
   },
   { path: "/workings", main: () => <NestingExample></NestingExample> },
   { path: "/writings", main: () => <Animate /> },
